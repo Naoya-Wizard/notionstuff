@@ -1,16 +1,8 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec 21 13:42:38 2023
-
-@author: naoya.fuke
-"""
-
 import requests
 
 # トークンとページIDを設定
-token = 'secret_oAe9jSPkggY4Qpu6hUFWJHnZGODZBcOiYVM1vzqMy02'
-page_id = 'e0f0b5be359f4912a3c6855fe54f0e6d'
+token = 'your-integration-token'
+page_id = 'your-page-id'
 
 # ヘッダーに認証情報を設定
 headers = {
